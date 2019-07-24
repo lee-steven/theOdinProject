@@ -1,0 +1,11 @@
+#container{
+    width: 480px;
+    height:480px;
+    border: 1px solid black;
+
+    display:grid;
+
+    grid-template-columns: repeat(var(--gridSize), 1fr);
+    grid-template-rows: repeat(var(--gridSize), 1fr);
+    --gridSize: 16;
+}

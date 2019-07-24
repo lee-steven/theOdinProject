@@ -1,0 +1,15 @@
+html{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+  #myCanvas{
+    margin-left: 34%;
+    background-color:white;
+  }
+  p{
+      color: white;
+  }
