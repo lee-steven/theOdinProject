@@ -1,0 +1,54 @@
+:root{
+    --gridSize: 16;
+}
+#main{
+    margin-left: 33%;
+    margin-top: 50px;
+}
+h1{
+    font-family: Helvetica;
+    font-size: 72px;
+    margin: 0px;
+    color: #333333;
+}
+#container{
+    width: 480px;
+    height: 480px;
+
+    border: 1px solid #f2f2f2;
+
+    display:grid;
+    grid-template-columns: repeat(var(--gridSize), 1fr);
+    grid-template-rows: repeat(var(--gridSize), 1fr);
+
+    box-shadow: 5px 5px 5px #e6e6e6;
+    border-radius: 5px;
+}
+
+#btn-container{
+    /* margin-left: 30%; */
+    padding: 10px;
+}
+
+#clearBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: white;
+    font-weight: 500;
+    padding: 20px 80px;
+    box-shadow: 10px 5px 5px #e6e6e6;
+}
+
+#newGridBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #333333;
+    font-weight: 500;
+    padding: 20px 70px;
+    box-shadow: 10px 5px 5px #e6e6e6;
+}
+
